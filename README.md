@@ -1,41 +1,42 @@
-# SQL Employee Database Analysis
+# Employee Data Analysis with PostgreSQL
 
-Designed and queried a relational database using PostgreSQL to explore employee and salary data. Built an Entity Relationship Diagram (ERD), created tables, imported datasets, and wrote SQL queries to answer business-relevant questions.
+Designed and queried a relational database to analyze employee records for a fictional company. Created a normalized schema, loaded data from CSV files, and used complex SQL queries to explore salary trends, department structures, and manager assignments.
 
 ## Tools & Technologies Used
 
 - PostgreSQL
 - SQL
-- Entity Relationship Diagrams (ERD)
-- Data Cleaning
-- Data Modeling
+- ERD (Entity Relationship Diagram)
+- Jupyter Notebooks
 
 ## File Structure
 
 ```text
-EmployeeSQL/
-├── EmployeeSQL_schemata.sql - Table creation scripts
-├── EmployeeSQL_queries.sql - SQL queries for analysis
-├── EmployeeSQL_ERD.png - Database schema diagram
+.
+├── EmployeeSQL_schemata.sql         # Database schema creation
+├── EmployeeSQL_queries.sql          # SQL queries and analysis
+├── EmployeeSQL_ERD.png              # Entity Relationship Diagram
 ├── Resources/
-│   ├── employees.csv
-│   ├── salaries.csv
-│   ├── dept_emp.csv
-│   ├── dept_manager.csv
-│   ├── departments.csv
-│   └── titles.csv
+│   ├── employees.csv                # Employee records
+│   ├── salaries.csv                 # Salary data
+│   ├── dept_emp.csv                 # Department-employee mapping
+│   ├── dept_manager.csv             # Department-manager mapping
+│   ├── departments.csv              # Department details
+│   └── titles.csv                   # Employee titles
 ```
 
 ## Skills Demonstrated
 
-- Database design & normalization
-- Writing complex SQL queries
-- Joining multiple tables for analysis
-- Translating business questions into SQL logic
-- Visualizing database structure with ERD
+- Relational database design and schema creation
+- SQL querying with joins, aggregations, and subqueries
+- Data modeling with ERDs
+- Loading and cleaning large datasets into PostgreSQL
+- Analyzing salary and department trends
 
-## Key Takeaways
+## Key Findings
 
-- Built and queried a relational database from scratch.
-- Used SQL to uncover insights from employee and salary data.
-- Practiced clean database design principles for scalable analysis.
+- Analyzed 300,000+ employee records across multiple tables.
+- Identified employees with the highest salaries by department.
+- Queried average salary trends for employees by title.
+- Explored relationships between managers, departments, and tenure.
+- Designed and implemented an optimized relational database structure.
