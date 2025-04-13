@@ -1,8 +1,41 @@
-# sql-challenge
-This holds the materials for the Module 9 challenge.
+# SQL Employee Database Analysis
 
-The table schema for each of the six CSV files was created first and the CSV files were loaded into their corresponding SQL tables.
+Designed and queried a relational database using PostgreSQL to explore employee and salary data. Built an Entity Relationship Diagram (ERD), created tables, imported datasets, and wrote SQL queries to answer business-relevant questions.
 
-QuickDBD was used to create the Entity Relationship Diagram. There was some translation between Postgres SQL syntax and QuickDBD syntax. The DOCS section of QuickDBD was used here.
+## Tools & Technologies Used
 
-Class notes/discussions were used to complete the Data Analysis.
+- PostgreSQL
+- SQL
+- Entity Relationship Diagrams (ERD)
+- Data Cleaning
+- Data Modeling
+
+## File Structure
+
+```text
+EmployeeSQL/
+├── EmployeeSQL_schemata.sql - Table creation scripts
+├── EmployeeSQL_queries.sql - SQL queries for analysis
+├── EmployeeSQL_ERD.png - Database schema diagram
+├── Resources/
+│   ├── employees.csv
+│   ├── salaries.csv
+│   ├── dept_emp.csv
+│   ├── dept_manager.csv
+│   ├── departments.csv
+│   └── titles.csv
+```
+
+## Skills Demonstrated
+
+- Database design & normalization
+- Writing complex SQL queries
+- Joining multiple tables for analysis
+- Translating business questions into SQL logic
+- Visualizing database structure with ERD
+
+## Key Takeaways
+
+- Built and queried a relational database from scratch.
+- Used SQL to uncover insights from employee and salary data.
+- Practiced clean database design principles for scalable analysis.
